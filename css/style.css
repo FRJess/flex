@@ -24,6 +24,9 @@ h3{
 }
 
 .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 25px;
   padding: 20px;
@@ -77,4 +80,36 @@ flex-direction: column;
 
 .container.dodici{
   justify-content: space-around;
+}
+
+.container.tredici{
+  justify-content: space-evenly;
+}
+
+.container.quattordici{
+  align-items: center;
+}
+
+.container.quindici{
+  justify-content: center;
+  align-items: center;
+}
+
+.container.sedici{
+  align-items: baseline;
+}
+
+.container.sedici .uno{
+  height: 150px;
+}
+.container.sedici .due{
+  height: 200px;
+}
+
+.container.sedici .tre{
+  height: 50px;
+}
+
+.container.diciasette{
+  align-items: stretch;
 }
