@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+h3{
+  color: #9E0A5D;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+  width: 500px;
+  height: 400px;
+  background-color: cadetblue;
+  margin: 0px auto;
+}
+
+.box{
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #9E0A5D;
+  border: 1px solid black;
+}
+
+.container.uno .box{
+  margin: 20px;
+}
+
+.container.tre {
+flex-direction: column;
+}
+
+.container.quattro{
+  flex-direction: row-reverse;
+}
+
+.container.cinque{
+  flex-direction: column-reverse;
+}
+
+.container.sei{
+  justify-content: flex-end;
+}
+
+.container.sette{
+  justify-content: flex-start;
+}
+
+.container.otto{
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.container.nove{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container.dieci{
+  justify-content: center;
+}
+
+.container.undici{
+  justify-content: space-between;
+}
+
+.container.dodici{
+  justify-content: space-around;
+}
